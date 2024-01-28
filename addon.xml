@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+    id="plugin.video.1tv.ru"
+    name="1tv.ru"
+    version="0.1.0+matrix.1"
+    provider-name="Kirill Vercetti"
+>
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.codequick" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <email>office@kyzima-spb.com</email>
+    <source>https://github.com/kyzima-spb/plugin.video.1tv.ru</source>
+    <licence>MIT</licence>
+    <language>ru</language>
+    <summary lang="en_GB">Kodi add-on for 1tv.ru</summary>
+    <description lang="en_GB"></description>
+    <disclaimer lang="en_GB">This is a non-commercial website plugin designed for fun. He has no relation to the First Channel television company.</disclaimer>
+    <summary lang="ru_RU">Дополнение Kodi для 1tv.ru</summary>
+    <description lang="ru_RU"></description>
+    <disclaimer lang="ru_RU">Это некоммерческий плагин для веб-сайта, разработанный для развлечения. Он не имеет отношения к телекомпании "Первый Канал".</disclaimer>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
