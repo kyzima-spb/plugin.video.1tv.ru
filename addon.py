@@ -95,7 +95,7 @@ def episodes_list(plugin, url):
 @Resolver.register
 def play_video(plugin, url):
     url = url_constructor(url)
-    return plugin.extract_source(url)
+    return plugin.extract_source(url, quality=0)
 
 
 if __name__ == '__main__':
