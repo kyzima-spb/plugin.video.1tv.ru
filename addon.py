@@ -95,7 +95,19 @@ def episodes_list(plugin, url):
 @Resolver.register
 def play_video(plugin, url):
     url = url_constructor(url)
-    return plugin.extract_source(url, quality=0)
+    video_url = plugin.extract_source(url)
+
+    resp = urlquick.get(url)
+    label = resp.parse('title').text
+
+    return Listitem.from_dict(
+        video_url,
+        label,
+        properties={
+            'inputstream': 'inputstream.adaptive',
+            'inputstream.adaptive.manifest_type': 'hls',
+        },
+    )
 
 
 if __name__ == '__main__':
