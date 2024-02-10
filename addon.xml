@@ -2,7 +2,7 @@
 <addon
     id="plugin.video.1tv.ru"
     name="1tv.ru"
-    version="0.1.1+matrix.1"
+    version="0.2.0+matrix.1"
     provider-name="Kirill Vercetti"
 >
   <requires>
