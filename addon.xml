@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon
-    id="plugin.video.1tv.ru"
-    name="1tv.ru"
-    version="0.2.0+matrix.1"
-    provider-name="Kirill Vercetti"
->
+<addon id="plugin.video.1tv.ru" name="1tv.ru" version="0.3.0+matrix.1" provider-name="Kirill Vercetti">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.codequick" version="1.0.0"/>
@@ -19,10 +14,10 @@
     <licence>MIT</licence>
     <language>ru</language>
     <summary lang="en_GB">Kodi add-on for 1tv.ru</summary>
-    <description lang="en_GB"></description>
+    <description lang="en_GB">Watch your favorite Channel One shows on your TV.</description>
     <disclaimer lang="en_GB">This is a non-commercial website plugin designed for fun. He has no relation to the First Channel television company.</disclaimer>
     <summary lang="ru_RU">Дополнение Kodi для 1tv.ru</summary>
-    <description lang="ru_RU"></description>
+    <description lang="ru_RU">Просмотр любимых шоу Первого канала в вашем телевизоре.</description>
     <disclaimer lang="ru_RU">Это некоммерческий плагин для веб-сайта, разработанный для развлечения. Он не имеет отношения к телекомпании "Первый Канал".</disclaimer>
     <assets>
       <icon>resources/icon.png</icon>

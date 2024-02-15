@@ -1,4 +1,4 @@
-from lib import main
+from resources.lib import main
 
 
 if __name__ == '__main__':
