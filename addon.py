@@ -1,5 +1,5 @@
-from resources.lib import main
+from resources.lib.main import main
 
 
 if __name__ == '__main__':
-    main.run()
+    main()
